@@ -26,7 +26,7 @@ public class Endrun : MonoBehaviour
         //FindObjectOfType<AudioManager>().playSound
         endscreendisplay.SetActive(true);
         yield return new WaitForSeconds(2f);
-        int randomscene = Random.Range(0, 1);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + randomscene);
+        int randomscene = Random.Range(0, 2);
+        SceneManager.LoadScene(randomscene);
     }
 }

@@ -517,6 +517,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1488423439878609632, guid: 308abc248a4388b46873f6680bf769ed, type: 3}
+      propertyPath: hoaPrefab
+      value: 
+      objectReference: {fileID: 8382355137633733655, guid: e89a42ae87528284fade71c19ce12463, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 308abc248a4388b46873f6680bf769ed, type: 3}
 --- !u!1 &427882728
@@ -1871,6 +1875,9 @@ MonoBehaviour:
   aiSpeed: 6
   aiTransform: {fileID: 0}
   losescreendisplay: {fileID: 1674791742}
+  useSkin: {fileID: 0}
+  matSkin: {fileID: 0}
+  particles: []
 --- !u!54 &2124417310
 Rigidbody:
   m_ObjectHideFlags: 0
